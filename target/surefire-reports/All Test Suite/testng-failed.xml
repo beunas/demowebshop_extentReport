@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.demoWebShop.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="MyDemoWebShop Functional Test(failed)" verbose="0">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="org.demoWebShop.testscripts.ShoppingCartTest">
+        <methods>
+          <include name="verifyProductAddedInShoppingCart"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- org.demoWebShop.testscripts.ShoppingCartTest -->
+      <class name="org.demoWebShop.testscripts.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitle"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- org.demoWebShop.testscripts.HomePageTest -->
+      <class name="org.demoWebShop.testscripts.LoginPageTest">
+        <methods>
+          <include name="verifyValidLogin"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- org.demoWebShop.testscripts.LoginPageTest -->
+      <class name="org.demoWebShop.testscripts.RegisterPageTest">
+        <methods>
+          <include name="verifyRegistration"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- org.demoWebShop.testscripts.RegisterPageTest -->
+    </classes>
+  </test> <!-- MyDemoWebShop Functional Test(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

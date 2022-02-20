@@ -1,0 +1,4 @@
+# Created at 2022-02-20T21:37:55.815
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Beuna\Automation\Obsqura\demoWebShop-main (1)\demoWebShop-main\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

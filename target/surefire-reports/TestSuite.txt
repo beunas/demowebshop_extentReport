@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 48.223 s <<< FAILURE! - in TestSuite
+org.demoWebShop.testscripts.HomePageTest.verifyHomePageTitle  Time elapsed: 0.516 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.apache.xmlbeans.XmlOptions.setUseDefaultNamespace(Z)Lorg/apache/xmlbeans/XmlOptions;
+	at org.demoWebShop.testscripts.HomePageTest.verifyHomePageTitle(HomePageTest.java:23)
+
+org.demoWebShop.testscripts.LoginPageTest.verifyValidLogin  Time elapsed: 0.962 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.poi.xssf.model.SharedStringsTable
+	at org.demoWebShop.testscripts.LoginPageTest.verifyValidLogin(LoginPageTest.java:27)
+
+org.demoWebShop.testscripts.RegisterPageTest.verifyRegistration  Time elapsed: 0.623 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.poi.xssf.model.SharedStringsTable
+	at org.demoWebShop.testscripts.RegisterPageTest.verifyRegistration(RegisterPageTest.java:31)
+
+org.demoWebShop.testscripts.ShoppingCartTest.verifyProductAddedInShoppingCart  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class org.apache.poi.xssf.model.SharedStringsTable
+	at org.demoWebShop.testscripts.ShoppingCartTest.verifyProductAddedInShoppingCart(ShoppingCartTest.java:24)
+

@@ -1,0 +1,5 @@
+org\demoWebShop\testscripts\HomePageTest.class
+org\demoWebShop\testscripts\UserAccountPageTest.class
+org\demoWebShop\testscripts\RegisterPageTest.class
+org\demoWebShop\testscripts\ShoppingCartTest.class
+org\demoWebShop\testscripts\LoginPageTest.class
